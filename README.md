@@ -8,3 +8,8 @@
 - **Delete tasks**: Remove tasks once completed or unnecessary.
 - **Responsive design**: Fully responsive UI using Tailwind CSS.
 - **Persistent data**: Data persists across sessions.
+
+## Installation:
+1. Clone the repo.
+2. Run `npm install`.
+3. Start the app with `npm start`.
