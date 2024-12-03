@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="w-full md:w-1/4 mb-6">
               <h2 className="font-bold text-2xl mb-4 bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">Tasklin</h2>
               <p className="text-gray-400 text-lg bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent">
-                An assignment for @Brand Klin by <br /> Laksh Nijhawan
+                An assignment for @Brandkiln by <br /> Laksh Nijhawan
               </p>
             </div>
 
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
     
           <div className="text-center text-gray-500 mt-4">
-            ©2024 Laksh Nijhawan, All rights reserved.
+            ©2024 Tasklin, All rights reserved.
           </div>
         </div>
     );
