@@ -45,22 +45,31 @@ const Footer = () => {
             <div className="w-full md:w-1/4 mb-6 text-left">
               <h3 className="font-bold text-xl mb-4 px-4 py-2 bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">Features</h3>
               <ul>
-                <li className="mb-3">
-                  <a className="px-4 py-2 text-gray-300 font-bold hover:bg-gradient-to-r from-blue-600 to-pink-500 hover:text-black rounded-full transition duration-300 ease-in-out">
-                    <Link to="/">Home</Link>
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="px-4 py-2 text-gray-300 font-bold hover:bg-gradient-to-r from-blue-600 to-pink-500 hover:text-black rounded-full transition duration-300 ease-in-out">
-                    <Link to="/dashboard">Dashboard</Link>
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="px-4 py-2 text-gray-300 font-bold hover:bg-gradient-to-r from-blue-600 to-pink-500 hover:text-black rounded-full transition duration-300 ease-in-out">
-                    <Link to="/">Task list</Link>
-                  </a>
-                </li>
-              </ul>
+              <li className="mb-3">
+                <Link
+                  to="/"
+                  className="px-4 py-2 text-gray-300 font-bold hover:bg-gradient-to-r from-blue-600 to-pink-500 hover:text-black rounded-full transition duration-300 ease-in-out"
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="mb-3">
+                <Link
+                  to="/dashboard"
+                  className="px-4 py-2 text-gray-300 font-bold hover:bg-gradient-to-r from-blue-600 to-pink-500 hover:text-black rounded-full transition duration-300 ease-in-out"
+                >
+                  Dashboard
+                </Link>
+              </li>
+              <li className="mb-3">
+                <Link
+                  to="/"
+                  className="px-4 py-2 text-gray-300 font-bold hover:bg-gradient-to-r from-blue-600 to-pink-500 hover:text-black rounded-full transition duration-300 ease-in-out"
+                >
+                  Task list
+                </Link>
+              </li>
+            </ul>
             </div>
           </div>
     
